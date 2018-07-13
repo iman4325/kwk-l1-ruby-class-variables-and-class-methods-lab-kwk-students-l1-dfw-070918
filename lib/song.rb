@@ -35,3 +35,4 @@ def self.artist_count
   @@artists.each{|key| @@artist_count[key] +=1}
   @@artist_count 
 end   
+end 
