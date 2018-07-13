@@ -23,7 +23,7 @@ def self.genres
   
 end 
 def self.artists 
- @@artists
+ @@artists = []
 end 
 def self.genre_count 
   hash  = {}
